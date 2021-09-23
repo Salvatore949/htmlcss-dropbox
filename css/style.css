@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+
+  /* header*/
+
+header img{
+    position: relative;
+    float: left;
+    padding: 35px 40px ;
+          
+}
+
+#first_ul{
+    list-style-type: none;
+    position: relative;
+    float: left;
+}
+
+#second_ul{
+    list-style-type: none;
+    position: relative;
+    float: right;
+}
+
+header li{
+    display: inline-block;
+    padding: 35px 25px ;
+}
+
+#second_ul button{
+    padding:5px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+/* jumbotrone*/
+
+.jumbotrone{
+    background-color:#b4d0e7;
+    padding: 80px 220px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.jumbotrone div{
+    position: relative;
+    float: left;
+    width:37%;
+    margin-top:40px;
+    line-height: 25px;  
+    font-size: 18px;  
+
+}
+
+.jumbotrone img{
+    position: relative;
+    float: right;
+    width: 60%;
+    margin-top:40px;
+}
+
+.jumbotrone button{
+    margin:25px 0 10px;
+    padding: 7px 5px;
+    border: none;
+    background-color: #0061ff;
+}
+
+.jumbotrone i{
+    padding: 20px 10px;
+    font-size: 30px;
+}
+
+/*plans*/
+#plans{
+}
+
+#plans ul{
+    list-style-type: none;
+}
+
+#plans table{
+    position: relative;
+    float: left;
+}
+
+  
