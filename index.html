@@ -33,50 +33,56 @@
             <!--cover jumbotrone-->
 
             <section class="jumbotrone clearfix">
-                <h1>
-                    TUTTO CIO' CHE TI SERVE PER IL LAVORO,<br>
-                    IN UN UNICO POSTO
-                </h1>
-                <div>
-                    <p> 
-                        Finalmente tuttii tupi strumenti,contenuti e <br>
-                        collaboratori sono accessibili dallo stesso posto. <br>
-                        Dropbox Business è più di uno spazio di <br>
-                        archiviazione sicuro:è un modo intelligente e <br>
-                        integrato per ottimizzare il flusso di lavoro esistente <br>
-                    </p>
-                    <button>Inizia la tua prova gratuita</button>
-                    <p>Annulla in qualsiasi momento</p>
-                    <i class="fas fa-arrow-down"></i>
+                <div id="container">
+                    <h1>
+                        TUTTO CIO' CHE TI SERVE PER IL LAVORO,<br>
+                        IN UN UNICO POSTO
+                    </h1>
+                    <div>
+                        <p> 
+                            Finalmente tuttii tupi strumenti,contenuti e <br>
+                            collaboratori sono accessibili dallo stesso posto. <br>
+                            Dropbox Business è più di uno spazio di <br>
+                            archiviazione sicuro:è un modo intelligente e <br>
+                            integrato per ottimizzare il flusso di lavoro esistente <br>
+                        </p>
+                        <button>
+                            Inizia la tua prova gratuita
+                        </button>
+                        <p>
+                            Annulla in qualsiasi momento
+                        </p>
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                    <img src="img\jumbo.png" alt="jumbo_proposta">
                 </div>
-                <img src="img\jumbo.png" alt="jumbo_proposta">
-
             </section>
 
              <!--plans-->
 
-            <section class= "tabels clearfix"> 
+            <section class="tabels clearfix"> 
                 
                 <h2>
                     Trova il piano Dropbox Business che fa per te
                 </h2>
+                
                 <div id="radio">
-                    <input type="radio" class="radio" name="" value="">
-                    <label for="radio_1">Fatturazione mensile</label>
-                    <input type="radio" class="radio" name="" value="">
-                    <label for="radio_2">Fatturazione annuale</label>
+                    <div></div>Fatturazione mensile
+                    <div></div>Fatturazione annuale
                 </div>
+                
 
                 <!--left column-->
-                <div class="choice">
+                <div class="choice ">
 
                     <div id="intestazione">
                         <i class="far fa-user"></i>
                         <span>Singolo</span>
                     </div>
 
-                    <div id="list">
+                    <div class="list choice_first">
                         <ul>
+        
                             <li>Professional</li>
                             <li>19,99€</li>
                             <li>/ mese</li>
@@ -90,10 +96,10 @@
                             </li>
                             <li>
                                  <i class="fas fa-pencil-alt"></i>
-                                 <p>
+                                 <span>
                                         Funzioni di produttività premium e<br>
                                         condivisione file semplice e sicura
-                                 </p>
+                                 </span>
                             </li>
                             <li>
                                 <button>
@@ -106,97 +112,54 @@
                             <li>
                                 Punti salienti del piano
                             </li>
-                            <li id="check">
+                            <li>
+                                <i class="fas fa-check"></i>
                                 Invia file fino a 100 GB con Dropbox <br>
-                                <span id="below">Transfert</span>
-                            </li>
-                            <li id="check">
-                                Cartelle offlinesu dispositivi mobili
-                            </li>
-                            <li id="check"> 
-                                Pulizia remota dell'account
-                            </li>
-                            <li id="check">
-                                Filigrana documento
-                            </li>
-                            <li id="check">
-                                Assistenza prioritaria via mail e <br>
-                                chat
-                            </li>
-                             <li id="check">
-                                Assistenza prioritaria via mail e <br>
-                                chat
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="choice">
-
-                    <!--centre column-->
-
-                    <div id="intestazione">
-                        <i class="far fa-building"></i>
-                        <span>Team</span>
-                    </div>
-
-                    <div id="list">
-                        <ul>
-                            <li>Standard</li>
-                            <li>19,99€</li>
-                            <li>/ mese</li>                            
-                            <li>
-                                <i class="far fa-user"></i>
-                                <span>1 utente</span>
                             </li>
                             <li>
-                                <i class="far fa-folder"></i>
-                                <span>3 TB di spazio di archiviazione sicuro</span>
-                            </li>
-                            <li>
-                                <i class="fas fa-pencil-alt"></i>
-                                <span>Funzioni di produttività premium e<br>
-                                      condivisione file semplice e sicura
-                                </span>
-                            </li>
-                            <li><button>Prova gratis per 30 giorni</button></li>
-                            <li>
-                                oppure<a href="#"> acquista ora </a>
-                            </li>
-                            <hr>
-                            <li>Punti salienti del piano</li>
-                            <li>Invia file fino a 100 GB con Dropbox <br>
-                                Transfert
-                            </li>
-                            <li>
+                                <i class="fas fa-check"></i>
                                 Cartelle offlinesu dispositivi mobili
                             </li>
                             <li> 
+                                <i class="fas fa-check"></i>
                                 Pulizia remota dell'account
                             </li>
                             <li>
+                                <div class="check"></div><i class="fas fa-check"></i>
                                 Filigrana documento
                             </li>
-                            <li>
-                                 Assistenza prioritaria via mail e <br>
-                                chat
+                            <li class="check">
+                                    <i class="fas fa-check"></i>
+                                    <span>Invia file fino a 100 GB con Dropbox</span>
                             </li>
-                            <li>
+                             <li>
+                                 <i class="fas fa-check"></i>
                                 Assistenza prioritaria via mail e <br>
                                 chat
                             </li>
+
+                            <li id="list_li">
+                                <i class="fas fa-check"></i>
+                               Assistenza prioritaria via mail e <br>
+                               chat
+                           </li>
                         </ul>
                     </div>
                 </div>
+
+                 <!--centre column-->
+ 
                 <div class="choice">
-                    <!--right column-->
+
                     <div id="intestazione">
                         <i class="far fa-building"></i>
                         <span>Team</span>
                     </div>
 
-                    <div id="list">
+                    <div class="list">
                         <ul>
-                            <li>Advanced</li>
+        
+                            <li>Professional</li>
                             <li>19,99€</li>
                             <li>/ mese</li>
                             <li>
@@ -208,39 +171,128 @@
                                 <span>3 TB di spazio di archiviazione sicuro</span>
                             </li>
                             <li>
-                                <i class="fas fa-pencil-alt"></i>
-                                    condivisione file semplice e sicura
-                                </span>
+                                 <i class="fas fa-pencil-alt"></i>
+                                 <span>
+                                        Funzioni di produttività premium e<br>
+                                        condivisione file semplice e sicura
+                                 </span>
                             </li>
-                            <li><button>Prova gratis per 30 giorni</button></li>
+                            <li>
+                                <button>
+                                    Prova gratis per 30 giorni
+                                </button>
                             <li>
                                 oppure<a href="#"> acquista ora </a>
                             </li>
                             <hr>
-                            <li>Punti salienti del piano</li>
-                            <li>Invia file fino a 100 GB con Dropbox <br>
-                                Transfert
+                            <li>
+                                Punti salienti del piano
                             </li>
                             <li>
+                                <i class="fas fa-check"></i>
+                                Invia file fino a 100 GB con Dropbox <br>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
                                 Cartelle offlinesu dispositivi mobili
                             </li>
                             <li> 
+                                <i class="fas fa-check"></i>
                                 Pulizia remota dell'account
                             </li>
                             <li>
+                                <div class="check"></div><i class="fas fa-check"></i>
                                 Filigrana documento
                             </li>
-                            <li>
+                            <li class="check">
+                                    <i class="fas fa-check"></i>
+                                    <span>Invia file fino a 100 GB con Dropbox</span>
+                            </li>
+                             <li>
+                                 <i class="fas fa-check"></i>
                                 Assistenza prioritaria via mail e <br>
                                 chat
                             </li>
                             <li>
-                                Assistenza prioritaria via mail e <br>
-                                chat
-                            </li>
+                                <i class="fas fa-check"></i>
+                               Assistenza prioritaria via mail e <br>
+                               chat
+                           </li>
                         </ul>
                     </div>
-                </div>        
+                </div>
+                <div class="choice">
+                    <!--right column-->
+                    <div id="intestazione">
+                        <i class="far fa-building"></i>
+                        <span>Team</span>
+                    </div>
+
+                    <div class="list">
+                        <ul>
+        
+                            <li>Professional</li>
+                            <li>19,99€</li>
+                            <li>/ mese</li>
+                            <li>
+                                <i class="far fa-user"></i>
+                                <span>1 utente</span>
+                            </li>
+                            <li>
+                                <i class="far fa-folder"></i>
+                                <span>3 TB di spazio di archiviazione sicuro</span>
+                            </li>
+                            <li>
+                                 <i class="fas fa-pencil-alt"></i>
+                                 <span>
+                                        Funzioni di produttività premium e<br>
+                                        condivisione file semplice e sicura
+                                 </span>
+                            </li>
+                            <li>
+                                <button>
+                                    Prova gratis per 30 giorni
+                                </button>
+                            <li>
+                                oppure<a href="#"> acquista ora </a>
+                            </li>
+                            <hr>
+                            <li>
+                                Punti salienti del piano
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                Invia file fino a 100 GB con Dropbox <br>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                Cartelle offlinesu dispositivi mobili
+                            </li>
+                            <li> 
+                                <i class="fas fa-check"></i>
+                                Pulizia remota dell'account
+                            </li>
+                            <li>
+                                <div class="check"></div><i class="fas fa-check"></i>
+                                Filigrana documento
+                            </li>
+                            <li class="check">
+                                    <i class="fas fa-check"></i>
+                                    <span>Invia file fino a 100 GB con Dropbox</span>
+                            </li>
+                             <li>
+                                 <i class="fas fa-check"></i>
+                                Assistenza prioritaria via mail e <br>
+                                chat
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                               Assistenza prioritaria via mail e <br>
+                               chat
+                           </li>
+                        </ul>
+                    </div>
+                </div>
             </section>
         
             <!--team-->
@@ -377,14 +429,76 @@
                 </div>
             </section>
 
+            <section class="designit clearfix">
+
+                <div id="designit_title">
+
+                    <h3>
+                        Più di 500.000 team<br>
+                        utilizzano Dropbox Business
+                    </h3>
+                    <p>
+                        Scopri di più sui nostri social
+                    </p>
+
+                </div>
+   
+                <div id="left">
+                    <div id="up">
+                        <div class="up_div">
+                        <img src="img\topps.svg" alt="Topps">
+                        </div>
+
+                        <div class="up_div">
+                        <img src="img\designit.svg" alt="Designit">
+                        </div>
+                    </div>
+                    
+                    <div id="down">
+                        <div class="down_div">
+                           <img src="img\arizona_state_university.svg" alt="Arizona_uni">
+                        </div>
+
+                        <div class="down_div">
+                           <img id="florida" src="img\university_of_florida.svg" alt="Florida_uni">
+                        </div>
+                    </div>
+                </div>
+                
+                <!--center-->
+
+                <div id="center">
+                    <img src="img\designit.svg" alt="">
+                    <hr>
+                    <p>“I membri del nostro team lavorano costantemente in Paesi, fusi orari e<br>
+                        uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze,<br>
+                        ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte<br>
+                        soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto<br>
+                        Dropbox paper”.
+                    </p>
+                    <p>
+                        Morten Thomsen, Global It Lead
+                    </p>
+                    
+
+                </div>
+
+                <!--right-->
+
+                <div id="right">
+                    <div>
+                        <img src="img\world_bicycle_relief.svg" alt="">
+                        <img src="img\hearst_corp.svg" alt="">
+
+                    </div>
+                    <div>
+                        <img src="img\lonely_planet.svg" alt="">
+                        <img src="img\clear_channel.svg" alt="">
+                    </div>
+                </div>
+            </section>
+
             <section class ="last clearfix">
-                <h3>
-                    Più di 500.000 team<br>
-                    utilizzano Dropbox Business
-                </h3>
-                <span>
-                    Scopri di più sui nostri social
-                </span>
                 <h4>
                     Domande frequenti
                 </h4>
@@ -476,27 +590,5 @@
 </html>
 
 
-    
-
-                <!--DESIGNIT-->
-<div id="designit_left">
-    <img id="ciao"src="img\arizona_state_university.svg" alt="">
-    <img id="hey"src="img\clear_channel.svg" alt="">
-    <img src="img\designit.svg" alt="">
-    <img src="img\hearst_corp.svg" alt="">
-</div>
-<div id="designit_center"></div>
-<div id="designit_right">
-    <div id="box_up_left">
-        <img src="img\lonely_planet.svg" alt="">
-    </div>
-    <div id="box_up_right">
-        <img src="img\topps.svg" alt="">
-    </div>
-    <img src="img\university_of_florida.svg" alt="">
-    <img src="img\world_bicycle_relief.svg" alt="">
-</div>
-<!-- Div azzurro basso-->
-<div id="designit_below"></div>
 
 

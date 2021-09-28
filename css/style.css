@@ -10,90 +10,582 @@
     display: table;
   } 
 
-  /* header*/
+/* header*/
 
-header img{
+ /* logo*/
+nav{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 200;
+
+}
+
+nav img{
     position: relative;
     float: left;
     padding: 35px 40px ;
-          
 }
+ 
+ /*navbar*/
 
 #first_ul{
     list-style-type: none;
     position: relative;
     float: left;
+    padding-top: 15px;
 }
 
 #second_ul{
     list-style-type: none;
     position: relative;
     float: right;
+    padding-top: 9px;
+
 }
 
 header li{
     display: inline-block;
-    padding: 35px 25px ;
+    padding: 25px 15px;
 }
 
-#second_ul button{
-    padding:5px 10px;
-    background-color: blue;
+li button{
+    padding:9px 25px;
+    background-color:#0061ff ;
     color: white;
     border: none;
+}
+
+/* body*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* jumbotrone*/
 
 .jumbotrone{
     background-color:#b4d0e7;
-    padding: 80px 220px;
 }
 
-h1{
-    font-size: 50px;
+.jumbotrone #container{
+    position: relative;
+    width:70%;
+    margin: 100px 250px ;
+    bottom: -60px;
 }
 
+ /*title*/
+ .jumbotrone h1{
+    font-size: 40px;
+    padding-bottom:30px;
+    line-height: 60px;
+}
+
+ /*text*/
 .jumbotrone div{
     position: relative;
     float: left;
-    width:37%;
-    margin-top:40px;
-    line-height: 25px;  
-    font-size: 18px;  
-
+    width:35%;
+    line-height: 20px;  
+    font-size: 15px;  
 }
+
+ /*main image*/
 
 .jumbotrone img{
     position: relative;
     float: right;
-    width: 60%;
-    margin-top:40px;
+    width: 65%;
 }
 
 .jumbotrone button{
-    margin:25px 0 10px;
-    padding: 7px 5px;
+    margin:20px 0 10px;
+    padding: 9px 15px;
     border: none;
     background-color: #0061ff;
+    color: white;
 }
+
+ /*arrow*/
 
 .jumbotrone i{
     padding: 20px 10px;
     font-size: 30px;
 }
 
+
 /*plans*/
-#plans{
+
+.tabels h2{
+    padding:150px 0 50px;
+    font-size: 42.5px;
 }
 
-#plans ul{
+ /*radio options*/
+
+#radio{
+  padding:30px 0;
+} 
+
+#radio div{
+  display: inline-block;
+  padding:8px 8px;
+  width: 8px;
+  margin-right:13px;
+  border: black 1px solid;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+#radio div:first-child{
+ border:solid 5px #0061ff;
+}
+
+#radio div:nth-child(2){
+    margin-left: 30px;
+}
+
+/*tabels*/
+
+.tabels{
+    border:1px solid grey;
+}
+
+.tabels{
+    padding: 0 310px ;
+    font-size: 13px;
+    border: blue;
+}
+
+.choice{
+    float:left;
+    width:calc(100% / 3  );
+    position: relative;
+}
+
+.choice #intestazione{
+    border: 1px solid gray;
+    text-align: center;
+    padding: 10px 0;
+    font-weight:bolder;
+}
+
+/*elenco*/
+
+.list{
+    border: 1px solid gray;
+    list-style-type: none;
+    padding: 40px 20px 70px 46px ;
+    line-height: 20px;
+    font-size: 12px;
+
+}
+
+
+.list ul{
     list-style-type: none;
 }
 
-#plans table{
+.list li:first-child{
+    font-weight: bold;
+    font-size:20px;
+    margin-left:-20px;
+}
+
+.list li:nth-child(2){
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 0 5px;
+    margin-left:-20px;
+}
+
+.list li:nth-child(3){
+    margin-left:-20px;
+}
+
+.list li:nth-child(4){
+    padding:30px 0 15px;
+}
+
+/*i*/
+
+.list li:nth-child(5){
+    padding-bottom:15px;
+}
+
+.list li:nth-child(6){
+    padding-bottom:15px;
+}
+
+.list ul button{
+    padding:8px 25px;
+    margin-top:25px;
+    margin-bottom:20px ;
+    margin-left:-20px;
+    font-size:13px;
+    background-color: #0061ff;
+    color: white;
+    border: none;
+}
+
+.list li:nth-child(8){
+    padding-bottom:15px;
+    margin-left:-20px;
+}
+
+.list ul hr{
+  margin-top: 10px; ;
+  margin-bottom:25px ;
+  margin-left:-20px;
+  width: 20%;
+}
+
+.list li:nth-child(10){
+    font-weight: bold;
+    font-size: 17px;
+    margin-left:-20px;
+    padding:10px 0 25px;
+}
+
+.list li:nth-child(n+11){
+    padding:10px 0;
+}
+
+#list_li{
+  color:white;
+}
+
+/*list blue check*/
+
+li i{
+    margin-left: -20px;
+}
+
+/*team*/
+
+#team_intestazione{
+    border: 1px solid grey;
+    width: 55%;
+    text-align: center;
+    margin: 45px auto 0  ;
+    line-height: 40px;
+
+}
+
+#enterprise{
+    border: 1px solid grey;
+    margin: 0 auto;
+    width:55%;
+    padding: 10px 0;
+}
+
+#enterprise span{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 30px;
+}
+
+#enterprise p{
+    padding:11px 30px;
+}
+#first_p{
+    font-weight: bold;
+}
+
+#enterprise button{
+    position: relative;
+    float: right;
+    padding: 5px 35px;
+    margin:6px 30px;
+    background-color:#0061ff;
+    color: white;
+    border: none;
+}
+
+.partner{
+    width:55%;
+    margin: 130px auto 30px;
+}
+
+.partner img{
+    width: 50%;
     position: relative;
     float: left;
 }
 
-  
+.partner div{
+    width: 45%;
+    position: relative;
+    float: left;
+    padding:80px 0 0 40px;
+}
+
+.partner h4{
+    font-size: 18px;
+}
+
+.partner p{
+    font-size: 13px;
+    padding: 15px 0;
+    line-height: 20px;
+}
+
+.partner button{
+    padding:5px 15px;
+    margin-top: 10px;
+}
+
+
+/* operation*/
+
+.container{
+    width: 55%;
+    margin: 50px auto;
+}
+
+#operation_tile{
+    font-size: 30px;
+}
+
+.operation{
+    margin-top: 50px;
+    float:left;
+    width:calc(100% /3);
+    position: relative;
+}
+
+.operation img{
+    width:90%;
+}
+
+.operation h4{
+    font-size: 18px;
+    padding:30px 0 30px;
+}
+
+.operation p{
+    font-size: 12px;
+}
+
+.fourth, .fifth, .sixth{
+    padding-top:20px;
+}
+    
+/*last section*/
+
+.last{
+    width:55%;
+    margin: 0 auto;
+    padding-bottom:150px ;
+}
+
+.last h3{
+    font-size: 30px;
+}
+
+.last h4{
+    font-size: 40px;
+    padding: 90px 0 40px;
+    border-bottom: 1px solid black;
+}
+
+.last div{
+    padding: 30px 0;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.last i{
+    position: relative;
+    float: right;
+    margin: 0 25px;
+}
+
+/* footer*/
+
+footer{
+    padding: 100px 0 10px;
+    border: black 1pa solid;
+    background-color: black;
+    color: white;
+}
+
+.footer_centre {
+    padding-bottom:150px;
+}
+
+.footer_list{
+    float:left;
+    width:calc(100% / 5 - 200px );
+    position: relative;
+    margin-left:150px ;
+}
+
+.footer_list h5{
+    padding-bottom: 20px;
+    padding-top:0px;
+    font-size: 20px;
+}
+
+.footer_list p{
+    line-height: 25px;
+}
+
+footer hr{
+    width: 120px;
+    margin-left: 150px;
+}
+
+#footer_down{
+    margin: 50px 150px 70px;
+}
+
+
+/*designit*/
+
+ /*left*/
+
+ #designit_title{
+     margin: 80px 310px;
+ }
+
+ .designit h3{
+     font-size:50px;
+ }
+
+ .designit p{
+    padding:30px 0px;
+}
+
+/*left*/
+
+ #left{
+    position: relative;
+    float: left;    
+    width:30%;
+    background-color: rgb(45, 0, 128);
+}
+
+#left div{
+    border:1px solid red;
+}
+
+#left div img{
+    width:49%;
+    padding:72.5px 30px;
+}
+
+.up_div{
+    width: 50%;
+    position: relative;
+    float: left;  
+}
+
+.down_div{
+    width: 49%;
+    position: relative;
+    float: left;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*center*/
+#center{
+    position: relative;
+    float: left;
+    width: 40%;
+    background-color: #f5f5f5;
+    position: relative;
+    float: left;
+    padding:25px;
+}
+
+
+#center img{
+    width:120px;
+    margin:20px 0;
+}
+
+#center hr{
+    width:30px;
+    margin:30px 0px;
+    background-color: grey;
+}
+
+#center p:last-child{
+    font-size: 17px;
+    padding:20px 0 25px;
+}
+
+/*right*/
+
+#right{
+    position: relative;
+    float: left;
+    width:30%;
+    background-color: teal;
+
+}
+
+#right div img{
+    width:48%;
+    padding:80px 30px;
+}
+
+#right div{
+    border:1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
