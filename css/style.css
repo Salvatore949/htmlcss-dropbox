@@ -164,7 +164,7 @@ body{
     position: relative;
 }
 
-.choice #intestazione{
+.choice .intestazione{
     border: 1px solid gray;
     text-align: center;
     padding: 10px 0;
