@@ -182,7 +182,6 @@ body{
 
 }
 
-
 .list ul{
     list-style-type: none;
 }
@@ -444,7 +443,7 @@ footer hr{
 
 /*designit*/
 
- /*left*/
+ /*title*/
 
  #designit_title{
      margin: 80px 310px;
@@ -467,25 +466,27 @@ footer hr{
     background-color: rgb(45, 0, 128);
 }
 
-#left div{
-    border:1px solid red;
-}
 
 #left div img{
     width:49%;
-    padding:72.5px 30px;
+    
 }
 
 .up_div{
     width: 50%;
     position: relative;
-    float: left;  
+    float: left; 
+    border:1px solid red; 
 }
 
 .down_div{
     width: 49%;
     position: relative;
     float: left;  
+}
+
+#toops{
+    width: 60px;
 }
 
 
